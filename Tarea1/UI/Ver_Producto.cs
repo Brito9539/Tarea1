@@ -18,10 +18,8 @@ namespace Proyecto_SCI_
 
         MySqlCommand cmd;
         MySqlConnection cn;
-        string query;
         DataSet Inventario = new DataSet();
         string idProducto;
-        string Matricula;
         public Modificar_Producto()
         {
             InitializeComponent();
@@ -89,16 +87,7 @@ namespace Proyecto_SCI_
 
         }
 
-    
-        private void cmsEditar_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void ContenedorRegi_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+ 
 
         private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -128,10 +117,6 @@ namespace Proyecto_SCI_
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
  

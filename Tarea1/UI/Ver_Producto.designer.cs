@@ -50,7 +50,7 @@
             this.label1.Size = new System.Drawing.Size(372, 79);
             this.label1.TabIndex = 30;
             this.label1.Text = "Productos";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+         
             // 
             // txtFiltrar
             // 
@@ -105,7 +105,7 @@
             this.eliminarToolStripMenuItem});
             this.cmsEditar.Name = "cmsEditar";
             this.cmsEditar.Size = new System.Drawing.Size(133, 28);
-            this.cmsEditar.Opening += new System.ComponentModel.CancelEventHandler(this.cmsEditar_Opening);
+
             // 
             // eliminarToolStripMenuItem
             // 
