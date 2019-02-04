@@ -127,6 +127,11 @@ namespace Proyecto_SCI_
                 MessageBox.Show("Ingrese datos válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
  
